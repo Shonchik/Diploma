@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.mainElem {
+  text-align: center;
+}
+
+.bottomPanel {
+  max-width: 640px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto auto;
+}
+
+.buttonStartStop {
+  font-size: 18px;
+  width: 80px;
+  height: 30px;
+}
+
+.bpmOutput {
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+.sessionid {
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}

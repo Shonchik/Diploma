@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Heartbeat</title>
+  <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+<body>
+  <div class="mainElem">
+    <h1>PulseDetector</h1>
+    <video hidden id="webcam" width="640" height="480"></video>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div class="bottomPanel">
+      <button id="startstop" class="buttonStartStop" disabled>Start</button>
+      <div>
+        <span>Current bpm: </span>
+        <input disabled id="bpm" class="bpmOutput" value="-">
+      </div>
+      <div>
+        <span>Session id: </span>
+        <input disabled id="sessionid" class="sessionid" value="-">
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./scripts/index.js"></script>
+</body>
