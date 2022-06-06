@@ -51,7 +51,7 @@ api.add_resource(GetBPM, "/get_bpm/<int:id>")
 api.add_resource(CloseSession, "/close_session/<int:id>")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int("5003"), debug=True)
 
 
 
